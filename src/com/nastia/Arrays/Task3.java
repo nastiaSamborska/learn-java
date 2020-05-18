@@ -15,8 +15,8 @@ public class Task3 {
     }
 
     public static void main(String args[]) {
-        String[] seasons = {"Winter", "Spring", "Summer", "Autumn"};
-        SeasonsWrite(seasons);
+        String[] seasons1 = {"Winter", "Spring", "Summer", "Autumn"};
+        SeasonsWrite(seasons1);
     }
 }
 
