@@ -3,7 +3,7 @@ package com.nastia.Arrays;
 import java.util.Arrays;
 
 public class Task3 {
-    public static void SeasonsWrite(String seasons[]) {
+    public static void Rotate_And_Print_Array(String seasons[]) {
         String temp;
         for (int i = 0; i < seasons.length / 2; i++) {
             temp = seasons[i];
@@ -16,7 +16,7 @@ public class Task3 {
 
     public static void main(String args[]) {
         String[] seasons1 = {"Winter", "Spring", "Summer", "Autumn"};
-        SeasonsWrite(seasons1);
+        Rotate_And_Print_Array (seasons1);
     }
 }
 
